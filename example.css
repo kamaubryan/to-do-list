@@ -1,12 +1,14 @@
 /* Container styling */
 .container {
-  max-width: 500px;
+  width: 90%;
   margin: 0 auto;
+  height: 70vh;
 }
 
 /* Styling for the to-do app */
 .todo-app {
   padding: 20px;
+  height: 100%;
   background-color: #706d6d;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
