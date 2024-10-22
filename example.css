@@ -1,0 +1,97 @@
+/* Container styling */
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+/* Styling for the to-do app */
+.todo-app {
+  padding: 20px;
+  background-color: #706d6d;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Title Styling */
+.title h2 {
+  text-align: center;
+}
+
+/* Input row styling */
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* List container styling */
+ul {
+  list-style-type: none; /* Remove bullet points */
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #fff;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+li .task-text {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.checked {
+  text-decoration: line-through;
+  color: #888;
+}
+
+/* Button styling for small size and colors */
+button.done-button,
+button.edit-button,
+button.remove-button {
+  padding: 5px 10px;
+  font-size: 12px;
+  border: none;
+  cursor: pointer;
+  border-radius: 3px;
+  margin-left: 5px;
+}
+
+button.done-button {
+  background-color: #4caf50;
+  color: white;
+}
+
+button.edit-button {
+  background-color: #2196f3;
+  color: white;
+}
+
+button.remove-button {
+  background-color: #ff6b6b;
+  color: white;
+}
+
+/* Hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
